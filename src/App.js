@@ -1,10 +1,12 @@
 
 import './App.css';
-import Navbar from './myComponent/Navbar';
+import Auth from './modules/Authorization';
+
+
 
 function App() {
   return (
-    <Navbar/>
+    <Auth/>
   );
 }
 
