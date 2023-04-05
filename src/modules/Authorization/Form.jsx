@@ -5,8 +5,8 @@ import Input from '../../myComponent/input'
 const Form = () => {
   const [isSignInPage,setIsSignInPage]=useState(true)
   return (
-    <div className='bg-[#e7f9fe] h-screen w-full flex justify-center items-center'>
-        <div className='h-[400px] w-[600px] bg-white flex justify-center items-center'>
+    <div className='bg-[#e7f9fe] h-screen w-full flex justify-center items-center '>
+        <div className='h-[400px] w-[600px] bg-white flex justify-center items-center shadow-xl'>
           <div className={`border h-full w-full flex flex-col justify-center items-center bg-[#4f7397] ${!isSignInPage && 'order-2'}`}>
                 
                 <div className='-apple-system '>WELCOME{isSignInPage && ' BACK'}</div>
