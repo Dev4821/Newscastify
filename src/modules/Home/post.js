@@ -3,7 +3,7 @@ import postImg from '../../assets/post1.jpg'
 import {ReactComponent as Avatar} from '../../assets/avatar.svg'
 const post = () => {
   return (
-    <div className='bg-white w-[60%]  mx-auto mt-32'>
+    <div className='bg-white w-[80%]  mx-auto mt-32'>
         <div className='border-b flex items-center pb-4 mb-4'>
           <Avatar width={'50px'} height={'50px'}/>
           <div className='ml-4'>
