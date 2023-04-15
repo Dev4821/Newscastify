@@ -1,9 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Button from '../../myComponent/button'
 import Input from '../../myComponent/input'
-
-const Form = () => {
-  const [isSignInPage,setIsSignInPage]=useState(true)
+import { useNavigate } from 'react-router-dom'
+const Form = ({
+  isSignInPage=false
+}) => {
+    const navigate =useNavigate()
   return (
     <div className='bg-[#e7f9fe] h-screen w-full flex justify-center items-center '>
         <div className='h-[400px] w-[600px] bg-white flex justify-center items-center shadow-xl'>
@@ -20,7 +22,7 @@ const Form = () => {
                   <Input type='password' name='Password' placeholder='Enter your password' label='Password'/>
                   <Button label={isSignInPage?'Sign in':'Register'} />
                 </form>
-                <div className='cursor-pointer' onClick={()=>setIsSignInPage(!isSignInPage)}>{isSignInPage?"Don't have an account? Sign up":'Have an account? Log in'}</div>
+              <div className='cursor-pointer' onClick={()=>navigate(`${isSignInPage?'/account/signup':'/account/signin'}`)}>{isSignInPage?"Don't have an account? Sign up":'Have an account? Log in'}</div>
           </div>
           <div className={`border h-full w-full flex justify-center bg-gray-400 ${!isSignInPage && 'order-1'}`}>
           <img src="https://c.tenor.com/y76xw2cQA3kAAAAC/welcome-door-open.gif" alt="welcome" />
