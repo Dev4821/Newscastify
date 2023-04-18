@@ -3,7 +3,7 @@ import Home from '../modules/Home'
 import Form from '../modules/Authorization'
 import {Navigate,Route,Routes as Router} from 'react-router-dom'
 const PrivateRoute=({children})=>{
-    const isUserLoggedIn= window.localStorage.getItem('user:token') || true
+    const isUserLoggedIn= window.localStorage.getItem('user:token') || false
     const isFormPages = window.location.pathname.includes('account')
     if(isUserLoggedIn && !isFormPages)
     {
