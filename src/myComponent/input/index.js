@@ -4,7 +4,11 @@ const Input = ({
     name='',
     label='',
     type='text',
-    placeholder=''
+    placeholder='',
+    className='',
+    value='',
+    onChange=()=> null,
+    isRequired=true
 
 }) => {
   return (
@@ -15,7 +19,7 @@ const Input = ({
            
         </label>
        }
-         <input className='shadow appearance-none border rounded-full w-full py-2 px-3 text-gray-700 leading-tight focus:shadow-outline' type={type}  id={name} placeholder={placeholder} />
+         <input className={`shadow appearance-none border rounded-full w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${className}`} value={value}  onChange={onChange} type={type}  id={name} placeholder={placeholder} required={isRequired} />
     </div>
   )
 }
