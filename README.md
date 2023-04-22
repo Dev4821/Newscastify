@@ -1,4 +1,4 @@
-# CREATIFY :
+# NEWSCASTIFY:
 
-A Fullstack Project named 'CREATIFY' , Social Media Website which is used to share your creativity and hobbies to the world.
+A Fullstack Project named 'NEWSCASTIFY' ,brings the top news headlines from world on Politics, Current Affairs, Sports, Entertainment, Technology and  Business News.
 
