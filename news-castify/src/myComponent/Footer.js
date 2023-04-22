@@ -48,7 +48,7 @@ const Footer=()=>  {
              </form>
               {submit&&<div>Hi {data.username},Our team will contact you soon!</div>}
           <div className="card-body">
-            <h5 className="card-title">My Feed , My News</h5>
+            <h5 className="card-title">News Castify</h5>
             <p className="card-text">Provides you most recently news here.</p>
           </div>
           <div className="card-footer text-muted">
@@ -59,7 +59,7 @@ const Footer=()=>  {
               target="_blank"
               rel="noreferrer"
             >
-              Divyansh
+              Divyansh , Himanshu and Ana
             </a>
           </div>
         </div>

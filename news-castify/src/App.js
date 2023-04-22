@@ -10,7 +10,7 @@ const App=()=> {
     return (
       <div>
         <Navbar/>
-        <News/>
+        <News size={6}/>
         <Footer/>
       </div>
     )

@@ -5,7 +5,7 @@ const NewsComponent=(props)=> {
     let {title,description,imageUrl,newsUrl}=props;
     return (
       <div className='my-3 mx-3'>
-       <div className="card" style={{width: "18rem"}}>
+       <div className="card" >
   <img src={!imageUrl?"https://images.puella-magi.net/thumb/2/27/No_Image_Wide.svg/800px-No_Image_Wide.svg.png?20110202071158":imageUrl} className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">{title}</h5>
