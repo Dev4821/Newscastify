@@ -26,7 +26,7 @@ const Footer=()=>  {
           setSubmit(true);
        }
     return (
-      <div>
+      <div >
         <div className="card text-center bg-dark text-muted">
           <div className="card-header ">CONTACT US</div>
           <form  onSubmit={handleSubmit} >
