@@ -59,7 +59,7 @@ const Footer=()=>  {
               target="_blank"
               rel="noreferrer"
             >
-              Divyansh , Himanshu and Ana
+               Divyansh , Himanshu and Ana
             </a>
           </div>
         </div>

@@ -22,14 +22,14 @@ const App=()=> {
         progress={progress} 
       />
         <Switch>
-          <Route exact path="/"><News setProgress={setProgress} key="general" size={6} country="in" category="general"/></Route> 
-          <Route exact path="/business"><News setProgress={setProgress} key="business" size={6} country="in" category="business"/></Route> 
-          <Route exact path="/General"><News setProgress={setProgress} key="General" size={6} country="in" category="General"/></Route> 
-          <Route exact path="/health"><News setProgress={setProgress} key="health" size={6} country="in" category="health"/></Route> 
-          <Route exact path="/science"><News setProgress={setProgress} key="science" size={6} country="in" category="science"/></Route> 
-          <Route exact path="/sports"><News setProgress={setProgress} key="sports" size={6} country="in" category="sports"/></Route> 
-          <Route exact path="/entertainment"><News setProgress={setProgress} key="entertainment" size={6} country="in" category="entertainment"/></Route> 
-          <Route exact path="/technology"><News setProgress={setProgress} key="technology" size={6} country="in" category="technology"/></Route> 
+          <Route exact path="/"><News setProgress={setProgress} key="general" size={12} country="in" category="general"/></Route> 
+          <Route exact path="/business"><News setProgress={setProgress} key="business" size={12} country="in" category="business"/></Route> 
+          <Route exact path="/General"><News setProgress={setProgress} key="General" size={12} country="in" category="General"/></Route> 
+          <Route exact path="/health"><News setProgress={setProgress} key="health" size={12} country="in" category="health"/></Route> 
+          <Route exact path="/science"><News setProgress={setProgress} key="science" size={12} country="in" category="science"/></Route> 
+          <Route exact path="/sports"><News setProgress={setProgress} key="sports" size={12} country="in" category="sports"/></Route> 
+          <Route exact path="/entertainment"><News setProgress={setProgress} key="entertainment" size={12} country="in" category="entertainment"/></Route> 
+          <Route exact path="/technology"><News setProgress={setProgress} key="technology" size={12} country="in" category="technology"/></Route> 
         </Switch>
     
         <Footer/>
