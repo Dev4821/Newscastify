@@ -13,7 +13,7 @@ const userSchema = new mongoose.Schema({
     username: String,
     email:String
   });
-  const User = mongoose.model('User', userSchema);2
+  const User = mongoose.model('User', userSchema);
 
 const server =express();
 server.use(cors());
