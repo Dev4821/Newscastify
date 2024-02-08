@@ -32,7 +32,7 @@ const App=()=> {
           <Route exact path="/technology"><News setProgress={setProgress} key="technology" size={12} country="in" category="technology"/></Route> 
         </Switch>
     
-        <Footer/>
+        // <Footer/>
         </Router>
 
         
